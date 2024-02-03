@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    width: min(600px,100vw);
+    gap: 1rem;
+}
+
+nav button{
+    flex: 1;
+    height: 4rem;
+    border: 1px solid darkslategrey;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    border-bottom: 0;
+    cursor: pointer;
+}
